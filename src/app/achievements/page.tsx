@@ -10,6 +10,8 @@ import { Award } from 'lucide-react';
 
 export const metadata: Metadata = { title: 'Achievements', description: 'Celebrating academic and extracurricular achievements at M.J. High School.' };
 
+export const dynamic = 'force-dynamic';
+
 const CATEGORY_ICONS: Record<string, string> = {
   ACADEMIC: '📚', SPORTS: '🏆', CULTURAL: '🎭', SCIENCE: '🔬', ARTS: '🎨', OTHER: '⭐',
 };
@@ -68,3 +70,6 @@ export default async function AchievementsPage() {
     </>
   );
 }
+
+
+

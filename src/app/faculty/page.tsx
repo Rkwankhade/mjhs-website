@@ -10,6 +10,8 @@ import { Badge } from '@/components/ui/badge';
 
 export const metadata: Metadata = { title: 'Our Faculty', description: 'Meet the dedicated teaching staff of M.J. High School, Karanja Lad.' };
 
+export const dynamic = 'force-dynamic';
+
 const DEPARTMENTS = ['All', 'Science', 'Mathematics', 'Social Science', 'Languages', 'Commerce', 'Physical Education', 'Arts'];
 
 export default async function FacultyPage() {
@@ -73,3 +75,4 @@ export default async function FacultyPage() {
     </>
   );
 }
+
